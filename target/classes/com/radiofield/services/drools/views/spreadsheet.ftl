@@ -12,12 +12,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
 <script src="https://rawgithub.com/kendo-labs/angular-kendo/master/build/angular-kendo.min.js"></script>
 <meta charset=utf-8 />
-<title>JS Bin</title>
+<title>Drools Rules</title>
 </head>
 <body>  
   <div ng-controller="MyController">    
     <div>Products: {{products.total()}}</div>
-    <div kendo-grid k-data-source="products" k-selectable="'row'"
+    <div kendo-grid k-data-source="products" k-editable= "true" k-selectable="'row'"
     k-pageable='{ "pageSize": 2, "refresh": true, "pageSizes": true }'
       k-columns='[
         { "field": "name", "title": "Name"},
