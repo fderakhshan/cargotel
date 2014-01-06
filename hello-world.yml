@@ -1,0 +1,8 @@
+template: Hello, %s!
+defaultName: Stranger
+
+assets:
+  overrides:
+    /dashboard: src/main/assets/
+  mimeTypes:
+    woff: application/font-woff
